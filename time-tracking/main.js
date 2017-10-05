@@ -28,10 +28,10 @@ function main(){
       db.collection(TABLE_NAME).find({}).toArray(function(err, result){
         if(err) throw err;
         report=result;
-         console.log(report);
+        // console.log(report);
         result.forEach(function(element) {
             // check deadline
-          if(new Date(element.timesheet == false && element.deadline) < date)
+          if(element.timesheet == false && new Date(element.deadline) < date)
             // get email of defaulters
             defaultersEmail.push(element.email);
             
