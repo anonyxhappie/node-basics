@@ -1,0 +1,12 @@
+{
+  "name": "time-tracking",
+  "version": "1.0.0",
+  "description": "time tracking system",
+  "main": "main.js",
+  "scripts": {
+    "start": "light-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akshay Saini - anonyxhappie",
+  "license": "ISC"
+}

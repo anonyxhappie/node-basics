@@ -1,0 +1,16 @@
+[ { _id: 59d5d033bcbf3f8b23d120f0,
+    name: 'Akshay',
+    email: 'akshay@gmail.com',
+    timesheet: false,
+    deadline: '2017-10-12' },
+  { _id: 59d5d033bcbf3f8b23d120f1,
+    name: 'John',
+    email: 'john@gmail.com',
+    timesheet: false,
+    deadline: '2017-10-01' },
+  { _id: 59d5d033bcbf3f8b23d120f2,
+    name: 'Troy',
+    email: 'troy@gmail.com',
+    timesheet: false,
+    deadline: '2017-10-05' } 
+]
