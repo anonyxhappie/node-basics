@@ -63,7 +63,7 @@ function sendEmail(defaultersEmail, report){
       pass: myPass
     }
   });
-  
+
   var mailOptionsForManager = {
     from: myEmail,
     to: projectManagerEmail,
@@ -72,7 +72,7 @@ function sendEmail(defaultersEmail, report){
   };
   
   var mailOptionsForDefaulters = {
-    from: 'anonyxhappie@gmail.com',
+    from: myEmail,
     to: defaultersEmail,
     subject: 'Warning Regarding Timesheet Update',
     message: 'Hey\n\nThis is warning mail regarding timesheet update.\n You have not updated your timesheet before your deadline. Please do it on priority basis.\n\nThank You & Regards\nAkshay Saini'
