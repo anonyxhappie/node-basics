@@ -7,13 +7,13 @@ app.get('/', function(req, res){
 });
 
 io.on('connection', function(socket){
-    console.log('New User Connected');
-    socket.on('chat message', function(res){
-        console.log('Message: ' + res.username + ': ' + res.msg);
+    console.log('Connection Established');
+    socket.on('chat', function(res){
+        console.log(res.username + ': ' + res.msg);
     });
 
     socket.on('disconnect', function(){
-        console.log('User Disconnected');
+        console.log('Disconnected');
     });
 });
 
